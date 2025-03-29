@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Feedback</title>
+<style>
+.image{
+  position: fixed;
+  background-image: ;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+   
+}
+
+input[type=submit] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.leg{font-size: 25px;color: #2e8b57;}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:white;
+  color: black;
+}
+
+.act {
+  background-color: darkgreen;
+}
+
+.ft {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:darkgreen;
+  color: white;
+  text-align: center;
+  opacity: 0.9;
+}
+</style>
+
+</head>
+<body>
+
+<ul>
+  <li><a  href="HOME.html">Home</a></li>
+  <li><a href="place.html">Top Places To Visit</a></li>
+   <li><a href="contact.html">Contact Us</a></li>
+  <li><a class="act" href="FeedBack.html">Feedback</a></li>
+</ul>
+
+<br>
+<br>
+ <br>
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Enter Your Name.."><br>
+
+    <label for="Email">Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Enter Your Email..."><br>
+
+    <label for="Districts">Districts</label><br>
+
+
+    <select id="Districts" name="Districts">
+
+
+      <option value=" Ampara"> Nuwara Eliya</option>
+      <option value=" Anuradhapura">Anuradhapura </option>
+      <option value=" Badulla"> Badulla</option>
+      <option value=" Batticloa"> Batticloa</option>
+      <option value=" Colombo"> Colombo</option>
+      <option value="Galle ">Galle </option>
+      <option value=" Gampaha"> Gampaha</option>
+      <option value="Hambantota "> Hambantota</option>
+      <option value=" Jaffna"> Jaffna</option>
+      <option value=" Kalutara">Kalutara </option>
+      <option value="Kandy "> Kandy</option>
+      <option value="Kegalle "> Kegalle</option>
+      <option value=" Kilinochchi">Kilinochchi </option>
+      <option value="Kurunagala "> Kurunagala</option>
+      <option value="Mannar "> Mannar</option>
+      <option value="Matale "> Matale</option>
+      <option value=" Matara">Matara </option>
+      <option value="Monaragala">Monaragala </option>
+      <option value=" Mullaitive"> Mullaitive</option>
+      <option value=" Nuwara Eliya">Ampara</option>
+      <option value=" Polonnaruwa">Polonnaruwa </option>
+      <option value="Puttalam">Puttalam </option>
+      <option value="Ratnapura"> Ratnapura</option>
+      <option value=" Tricomalee">Tricomalee </option>
+      <option value="Vavuniya "> </option>
+
+    </select>
+
+    <br>
+
+    <label for="subject">Feedback</label>
+    <textarea id="subject" name="subject" placeholder="FeedBack.." style="height:150px"></textarea>
+    <br>
+
+    <input type="submit" value="Submit">
+    </fieldset>
+  </form>
+</div>
+  
+  <footer>
+        <div class="ft">
+          <p>   Central Province Sri lanka &copy; All right reserved</p>
+        </div>
+      </footer>
+
+
+</body>
+</html>
